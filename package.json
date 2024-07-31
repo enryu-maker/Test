@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "start": "webpack serve --config ./webpack.config.js --mode development --port 3000"
   },
   "keywords": [],
